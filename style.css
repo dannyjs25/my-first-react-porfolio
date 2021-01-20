@@ -1,0 +1,110 @@
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+}
+#maincontent{
+    border: .5px solid rgb(248, 248, 248);
+    background-color: rgb(233, 232, 230);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+    
+}
+#maincontent2{
+    border: .5 solid rgb(255, 255, 255);
+    background-color:  rgb(233, 232, 230);;
+    border-radius: 25px;
+    padding: 40px;
+    margin: 100px;
+    margin-bottom: 100px;
+
+
+
+}
+.bg-light{
+    margin-bottom: 40px;
+}
+.navbar-brand, .mainheader{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 90;
+}
+.navbar-toggler, .dropdown-item, #navbarDropdownMenuLink, .nav-item, .nav-link{
+    font-family: 'Mulish', sans-serif;
+}
+section, .contactsection{
+    background-color: rgb(255, 255, 255) ; 
+    background-size: cover;
+}
+
+#mainheader{
+    padding-left: 10px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 90;
+    padding-top: 10px;
+    border-bottom: .5px rgb(180, 36, 36);
+}
+.card{
+    margin: auto;
+    padding: 3px;
+}
+#projectcard{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.card-text1{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.card-text{
+    font-family: 'Mulish', sans-serif;
+}
+.Danielbio{
+    font-family: 'Mulish', sans-serif;
+
+}
+.Danielbio1{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+}
+.contactcontent{
+    padding-bottom: 75px;
+}
+.homepagename{
+    font-family: 'Baloo Tamma 2', cursive;
+        border-bottom: .5px solid rgb(235, 231, 231);
+}
+.Danielpic{
+    max-width: 40%; 
+    display:block; 
+    height: auto;
+    max-height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.fa{
+    padding:20px;
+    transform: scale(2,2); 
+    color: rgb(0, 0, 0);
+    
+}
+#mainpagetextarea{
+    border: .5px solid rgb(255, 255, 255);
+    background-color: rgb(230, 223, 223);
+    border-radius: 25px;
+    padding: 50px;
+    margin: 100px;
+    margin-bottom: 100px
+}
+
+@media (min-width: 600px){
+.navbar-expand-lg {
+-ms-flex-flow: row nowrap !important;
+flex-flow: row nowrap !important;
+-ms-flex-pack: start !important;
+justify-content: flex-start !important;
+}}
